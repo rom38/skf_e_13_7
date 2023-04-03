@@ -1,9 +1,10 @@
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
-    mode: 'development',
-    entry: './src/index.js',
-    devtool: 'inline-source-map',
+    mode: "development",
+    entry: "./src/index.js",
+    devtool: "inline-source-map",
     devServer: {
-        static: './dist',
+        static: "./dist",
         hot: true,
         devMiddleware: {
             stats: {
@@ -11,13 +12,13 @@ module.exports = {
                 maxModules: 0,
             },
         },
-    }, 
+    },
     plugins: [
-        // new HtmlWebpackPlugin({
-        //     title: 'Development',
-        // }),
+        new HtmlWebpackPlugin({
+            title: "Development",
+        }),
     ],
     output: {
-        filename: 'main.js',
+        filename: "main.js",
     },
 };
