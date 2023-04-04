@@ -1,4 +1,5 @@
 # Задание
+
 В прошлом модуле мы с вами попробовали настроить Webpack.
 Теперь нужно добавить следующие возможности:
 
@@ -10,8 +11,8 @@
 
 Если возникнут проблемы с заданием, то можно перечитать модуль, а если не поможет, то можно почитать следующие статьи:
 
-DevServer
-Hot Module Replacement
-Node.js: различия между development и production окружениями
-JSON-server. Тестируем front-end без back-end
-Prettier, ESLint, Husky, Lint-Staged и EditorConfig: инструменты для написания аккуратного кода
+[DevServer](https://webpack.js.org/configuration/dev-server/)
+[Hot Module Replacement](https://webpack.js.org/guides/hot-module-replacement/)
+[Node.js: различия между development и production окружениями](https://dev-gang.ru/article/node-js-razlichiya-mezhdu-development-i-production-okruzheniyami/)
+[JSON-server. Тестируем front-end без back-end](http://iantonov.me/page/json-server-testiruem-front-end-bez-back-end)
+[Prettier, ESLint, Husky, Lint-Staged и EditorConfig: инструменты для написания аккуратного кода](https://habr.com/ru/company/ruvds/blog/428173/)
