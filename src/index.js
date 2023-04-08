@@ -1,3 +1,4 @@
+import './styles.css';
 console.log('Привет');
 
 async function refreshUsers(e) {
